@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Woorin Hwang</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .profile-quote {
+      font-style: italic;
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin: 0.4em 0 1.2em;
+      border-left: 3px solid var(--accent);
+      padding-left: 12px;
+    }
+    .profile-quote span {
+      display: block;
+      font-style: normal;
+      font-size: 0.88rem;
+      margin-top: 4px;
+    }
+    .photo-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 12px;
+      justify-content: center;
+    }
+    .photo-links a {
+      font-size: 0.82rem;
+      font-weight: 500;
+      color: var(--muted);
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 1px;
+    }
+    .photo-links a:hover {
+      color: var(--accent);
+      text-decoration: none;
+      border-bottom-color: var(--accent);
+    }
+    .photo-col {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex-shrink: 0;
+    }
+    .interest-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .interest-list li {
+      padding: 12px 0;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: baseline;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .interest-list li:last-child { border-bottom: none; }
+    .interest-main {
+      font-family: var(--serif);
+      font-weight: 700;
+      font-size: 1.08rem;
+    }
+    .interest-sub {
+      font-size: 0.82rem;
+      font-weight: 500;
+      padding: 2px 10px;
+      border-radius: 20px;
+    }
+    .sub-1 { background: #f0f0f0; color: #555; }
+    .sub-2 { background: #e8e8e8; color: #444; }
+    .sub-3 { background: #dcdcdc; color: #333; }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="index.html">Woorin Hwang</a>
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="teaching.html">Teaching</a></li>
+        <li><a href="https://docs.google.com/document/d/1JcIJNa732_MLc4j4qiEFIuzYrSAXSQCb/edit?usp=sharing&ouid=103101710992651038260&rtpof=true&sd=true" target="_blank">CV</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ── Profile ── -->
+    <div class="profile">
+
+      <div class="photo-col">
+        <img src="photo.jpg" alt="Woorin Hwang" />
+        <div class="photo-links">
+          <a href="mailto:hwangwoorin@ufl.edu">Email</a>
+          <a href="https://scholar.google.com/citations?user=GT4Pu2sAAAAJ&hl=en&authuser=2" target="_blank">Google Scholar</a>
+<a href="https://sites.google.com/view/woorin-hwang-portfolio/home" target="_blank">Portfolio</a>
+        </div>
+      </div>
+
+      <div>
+        <h1>Woorin Hwang</h1>
+        <p class="subtitle">Ph.D. Candidate in Educational Technology · University of Florida</p>
+
+        <p>
+          Hello, I'm Woorin Hwang, a Ph.D. candidate at the University of Florida (UF).
+          My research examines how learners develop <strong>AI literacy</strong>, <strong>interest</strong>,
+          and <strong>informed STEM career</strong> pathways, and how (mis)conceptions about AI are associated
+          with <strong>engagement, conceptual change, and motivation</strong>.
+        </p>
+
+        <p>
+          I'm an educational technologist who designs <strong>AI‑enhanced learning environments</strong>
+          that trigger, maintain, and scale "interest."
+        </p>
+
+        <p>
+          Before joining the UF, I worked as an instructional designer and educator for the
+          Educational Broadcasting System (EBS), the Korea Development Institute (KDI) School of
+          Public Policy and Management, and several secondary schools in South Korea.
+        </p>
+      </div>
+    </div>
+
+    <!-- ── Research Interests ── -->
+    <h2>Research Interests</h2>
+    <ul class="interest-list">
+      <li>
+        <span class="interest-main">AI Literacy</span>
+        <span class="interest-sub sub-1">Interest Development</span>
+        <span class="interest-sub sub-1">Conceptual Change</span>
+      </li>
+      <li>
+        <span class="interest-main">AI-Enhanced Learning Environment</span>
+        <span class="interest-sub sub-2">Edge AI</span>
+        <span class="interest-sub sub-2">eXplainable Artificial Intelligence</span>
+      </li>
+      <li>
+        <span class="interest-main">STEM Career Development</span>
+        <span class="interest-sub sub-3">Informed Career Pathways</span>
+      </li>
+    </ul>
+
+    <!-- ── Contact ── -->
+    <h2>Contact</h2>
+    <p>
+      College of Education, University of Florida<br>
+      Gainesville, FL, USA<br>
+      <a href="mailto:hwangwoorin@ufl.edu">hwangwoorin@ufl.edu</a>
+    </p>
+
+  </main>
+
+  <footer>
+    <p>© 2025 Woorin Hwang · All rights reserved. Unauthorized use or reproduction of any content is prohibited.</p>
+  </footer>
+
+</body>
+</html>
